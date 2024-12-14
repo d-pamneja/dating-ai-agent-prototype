@@ -1,5 +1,7 @@
 # Importing the dependencies
-from mangum import Mangum
+import uvicorn
 from api.resource import app
 
-handler = Mangum(app)
+# Running the App with Uvicorn
+if __name__ == "__main__":
+    uvicorn.run(app, host="127.0.0.1", port=8000)
