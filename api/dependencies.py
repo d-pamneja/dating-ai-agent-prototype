@@ -3,4 +3,5 @@ from fastapi.responses import JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.security import OAuth2PasswordBearer
 from pydantic import BaseModel, Field, ValidationError
+from mangum import Mangum
 from typing import List, Union, Dict, Optional

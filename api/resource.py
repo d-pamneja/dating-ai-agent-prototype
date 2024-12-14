@@ -35,3 +35,5 @@ async def getQuestion(query: ChatQuery = Body(...)):
         raise HTTPException(status_code=400, detail=str(e))
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Internal Server Error: {e}")
+
+handler = Mangum(app)
