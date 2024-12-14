@@ -1,0 +1,2 @@
+[2024-12-14 19:29:52,986] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2024-12-14 19:29:52,998] 31 root - INFO - Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='"Hey B, do you think A understands how much you value their support in your dreams, or is it time for a little heart-to-heart on what \'having your back\' really means?"', refusal=None, role='assistant', audio=None, function_call=None, tool_calls=None))
